@@ -1,6 +1,5 @@
 def reverse_each_word(sentence)
-  new_sentence = []
-  new_sentence << sentence.split
+  sentence.split
   return new_sentence.join(" ")
 end
 

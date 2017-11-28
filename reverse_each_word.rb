@@ -1,5 +1,6 @@
 def reverse_each_word(sentence)
-  sentence.split.each {|word| word.reverse}
+  new_sentence =[]
+  sentence.split.each {|word| new_sentence << word.reverse}
 end
 
 #method with collect
